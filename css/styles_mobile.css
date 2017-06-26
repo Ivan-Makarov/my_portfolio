@@ -1,0 +1,110 @@
+@media screen and (max-device-width: 500px) {
+  html {
+    width: 100%;
+    min-width: 100px;
+  }
+
+  .main-block {
+    width: 100%;
+  }
+
+  header {
+    padding: 15vh 10px 10px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  section {
+    padding: 40px 20px 10px;
+  }
+
+  .about .main-block {
+    padding-left: 0;
+  }
+
+  .my-photo {
+    display: none;
+  }
+
+  .skills-general,
+  .skills-bar {
+    display: block;
+    width: 100%;
+  }
+
+  .section-button {
+    display: block;
+    margin: 0 auto;
+    }
+
+  .skills .section-button {
+    display: none;
+  }
+
+  .cv .main-block {
+    padding-bottom: 30px;
+  }
+
+  .cv .main-block::after {
+    display: none;
+    }
+
+  .education-text,
+  .education-details,
+  .experience-text,
+  .experience-details  {
+    display: block;
+    width: 100%;
+  }
+
+  .portfolio {
+    padding-bottom: 30px;
+  }
+
+  .portfolio-item {
+    display: block;
+    margin: 20px auto 0px;
+  }
+
+  .portfolio-item:nth-child(n+4) {
+    margin-top: 20px;
+  }
+
+  .portfolio-item.blank {
+    display: none;
+  }
+
+  .portfolio-item-image {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .portfolio-item-description {
+    display: block;
+    padding: 20px 30px 0;
+    color: #000000;
+  }
+
+  .portfolio-item:hover .portfolio-item-description {
+    position: static;
+    background: transparent;
+    height: auto;
+    width: auto;
+  }
+
+  .contact-text,
+  .contact-form {
+    display: block;
+    width: 100%;
+  }
+  .contact {
+    padding-bottom: 20px;
+  }
+
+  .contact-form button {
+    width: 100%;
+  }
+}
