@@ -463,23 +463,33 @@ address a:hover {
     max-width: 100%;
 }
 
-.contact-form button {
+.form-submit-button {
     display: inline-block;
     padding: 15px 35px 13px;
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 0.07em;
-    color: #ffffff;
-    background: #007000;
     border: 0;
 }
 
-.contact-form button:hover {
+.form-submit-button.unsent-message  {
+    color: #ffffff;
+    background: #007000;
+}
+
+.form-submit-button.sent-message {
+    background: #ffffff;
+    color: #000000;
+    width: 100%;
+    cursor: default;
+}
+
+.form-submit-button.unsent-message:hover {
     background: #00cd6b;
     cursor: pointer;
 }
 
-.contact-form button:focus {
+.form-submit-button.unsent-message:focus {
     outline: 0;
     box-shadow: 0 0 0 1px #00cd6b;
 }

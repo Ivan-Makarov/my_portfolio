@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/styles_mobile.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <script src="js/form.js" defer></script>
 </head>
 <body>
   <header id="header">
@@ -219,7 +220,7 @@
         <div class="experience-details">
 
           <div class="experience-item">
-            <h3>Assistant Director of Studies - Помощник директора по образованию, методист</h3>
+            <h3>Assistant Director of Studies &mdash; Помощник директора по образованию, методист</h3>
             <p class="experience-item-time">BKC-International House, Москва, 2015&ndash;</p>
             <p class="experience-item-description">Обязанности</p>
           </div>
@@ -302,17 +303,7 @@
         <div class="contact-form">
 
           <script type="text/javascript">var submitted=false;</script>
-          <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {
-              document.getElementsByClassName('form-submit-button')[0].style.background = '#ffffff';
-              document.getElementsByClassName('form-submit-button')[0].style.color = '#000000';
-              document.getElementsByClassName('form-submit-button')[0].style.width = '100%';
-              document.getElementsByClassName('form-submit-button')[0].style.cursor = 'default';
-              document.getElementsByClassName('form-submit-button')[0].innerHTML = 'Спасибо, я скоро вам отвечу';
-              document.getElementsByTagName('input')[0].style.display = 'none';
-              document.getElementsByTagName('input')[1].style.display = 'none';
-              document.getElementsByTagName('textarea')[0].style.display = 'none';
-              document.getElementsByClassName('alt-contact-option')[0].style.display = 'none';
-              }"></iframe>
+          <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
 
           <form action="https://docs.google.com/forms/d/e/1FAIpQLScEzwvj1GNdGBuktCpf0aT2NS9rkBsKmi2QUuRPwlIE5zorOw/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
 
@@ -328,7 +319,7 @@
 
             <textarea placeholder="Ваше сообщение" rows="10" cols="30" tabindex="0" aria-label="Ваше сообщение" required="" name="entry.1136328271" dir="auto" data-initial-dir="auto" data-initial-value=""></textarea>
 
-            <button type="submit" class="form-submit-button"  aria-disabled="false" tabindex="0">Отправить</button>
+            <button type="submit" class="form-submit-button unsent-message"  aria-disabled="false" tabindex="0">Отправить</button>
 
           </form>
 
